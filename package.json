@@ -1,0 +1,31 @@
+{
+  "name": "commander-lab",
+  "version": "1.0.0",
+  "description": "Working our usage patterns for commanderjs, which was harder to use than I expected",
+  "main": "./bin/index.js",
+  "bin": {
+    "reverse-proxy-cache": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ca0v/commander-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ca0v/commander-lab/issues"
+  },
+  "homepage": "https://github.com/ca0v/commander-lab#readme",
+  "dependencies": {
+    "commander": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "typescript": "^4.0.3"
+  }
+}
